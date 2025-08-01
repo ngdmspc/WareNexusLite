@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/warenexus">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+          maxIdle="5" maxTotal="20" maxWaitMillis="10000"
+          name="jdbc/WareNexusDS" password="123"
+          type="javax.sql.DataSource"
+          url="jdbc:sqlserver://NGOCDIEM\SQLEXPRESS;databaseName=WARENEXUS;encrypt=true;trustServerCertificate=true"
+          username="sa"/>
+</Context>
